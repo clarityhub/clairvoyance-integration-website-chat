@@ -1,0 +1,56 @@
+{
+  "development": {
+    "port": "3000",
+    "key": "jwt-secret.pem",
+    "database": {
+      "username": "postgres",
+      "password": "postgres",
+      "database": "clairvoyance_integration_website_chat_development",
+      "host": "postgres",
+      "dialect": "postgres"
+    },
+    "token": "9c0e7b25-92bd-479d-b895-436214a535ca",
+    "clientId": "15fa3fbd-8f80-442b-99e4-33c96e51e6b9",
+    "clientSecret": "784470bc-3d14-41e7-9e6b-8ec5187b681d",
+    "integrationUuid": "dc7cd7ec-335d-4375-8b78-96984ca90d9e",
+    "integrationUrl": "http://service-integrations:3000",
+    "authUrl": "http://service-auth:3000",
+    "appsUrl": "https://widgets.clarityhub.app"
+  },
+  "test": {
+    "port": "3001",
+    "key": "jwt-secret.pem",
+    "database": {
+      "username": "postgres",
+      "password": "postgres",
+      "database": "clairvoyance_integration_website_chat_test",
+      "host": "postgres",
+      "dialect": "postgres"
+    },
+    "token": "9c0e7b25-92bd-479d-b895-436214a535ca",
+    "clientId": "15fa3fbd-8f80-442b-99e4-33c96e51e6b9",
+    "clientSecret": "784470bc-3d14-41e7-9e6b-8ec5187b681d",
+    "integrationUuid": "dc7cd7ec-335d-4375-8b78-96984ca90d9e",
+    "integrationUrl": "http://service-integrations:3000",
+    "authUrl": "http://service-auth:3000",
+    "appsUrl": "https://widgets.clarityhub.app"
+  },
+  "production": {
+    "port": "3000",
+    "key": "jwt-secret.pem",
+    "database": {
+      "username": "postgres",
+      "password": "postgres",
+      "database": "clairvoyance_integration_website_chat_production",
+      "host": "postgres",
+      "dialect": "postgres"
+    },
+    "token": "9c0e7b25-92bd-479d-b895-436214a535ca",
+    "clientId": "15fa3fbd-8f80-442b-99e4-33c96e51e6b9",
+    "clientSecret": "784470bc-3d14-41e7-9e6b-8ec5187b681d",
+    "integrationUuid": "dc7cd7ec-335d-4375-8b78-96984ca90d9e",
+    "integrationUrl": "http://service-integrations:3000",
+    "authUrl": "http://service-auth:3000",
+    "appsUrl": "https://widgets.clarityhub.app"
+  }
+}
